@@ -1,0 +1,41 @@
+@import './../_variables.scss';
+
+ .fields {
+   position: absolute;
+    top: 50%;
+    left: 49%;
+    margin-top: -174px;
+    margin-left: -98px;
+    .submit {
+      position: absolute;
+      left: 16%;
+      margin-top: 10%;
+    }
+    .error {
+      width: 260px;
+      position: absolute;
+      left: -18%;
+      text-align: left;
+      margin-top: 60%;
+      font-size: 10px;
+      color: #ff3860;
+    }
+ }
+
+ .back {
+   position: absolute;
+   left: 1.5%;
+   bottom: 12%;
+ }
+
+ .create {
+   top: 0px;
+   right: 1.5%;
+   position: absolute;
+   text-decoration: underline;
+   font-size: 18px;
+
+   &:hover {
+     cursor: pointer;
+   }
+ }

@@ -1,0 +1,14 @@
+@import './../_variables.scss';
+
+ .container {
+    .logo {
+      margin: auto;
+      left: 1.5%;
+      width: 14.5%;
+      position: absolute;
+      padding-top: 20px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+ }

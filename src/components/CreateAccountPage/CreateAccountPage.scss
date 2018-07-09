@@ -1,0 +1,45 @@
+@import './../_variables.scss';
+
+ .fields {
+   position: absolute;
+    top: 50%;
+    left: 49%;
+    margin-top: -174px;
+    margin-left: -98px;
+    .fieldName {
+      margin-bottom: -5px;
+    }
+    .error {
+      color: #ff3860;
+      font-size: 12px;
+      text-align: center;
+      margin-top: 0px;
+    }
+ }
+
+ .submit {
+   position: fixed;
+    left: 49%;
+    top: 70%;
+    margin-left: -86px;
+
+    .reject {
+      margin-top: 49%;
+      color: #ff3860;
+      font-size: 12px;
+      text-align: center;
+    }
+    .fuck {
+      color: #ff3860;
+     font-size: 12px;
+     text-align: center;
+      margin-top: 27%;
+      margin-left: -94px;
+    }
+ }
+
+ .back {
+   position: absolute;
+   left: 1.5%;
+   bottom: 12%;
+ }
